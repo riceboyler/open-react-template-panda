@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "panda codegen"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
@@ -20,6 +21,7 @@
     "typescript": "^5.7.3"
   },
   "devDependencies": {
+    "@pandacss/dev": "^1.4.3",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/postcss": "^4.0.3",
     "@types/aos": "^3.0.7",
